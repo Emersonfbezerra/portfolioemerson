@@ -409,7 +409,7 @@ footer {
 @media (min-width: 0px) {
     .menu-hamburguer {
         display: block;
-    }
+        } 
 
     .nav {
         display: block;
@@ -570,4 +570,3 @@ footer {
     }
 
 /*=== /media queries ====*/
-}
