@@ -464,7 +464,7 @@ footer {
     }
 
     /*Small (sm): Smartphone (landscape)*/
-    @media (min-width: 576px) {
+    @media (min-width: 576px) {}
         .home-img, .about-imag {
             width: 65%;
             max-width: 65%;
@@ -481,7 +481,7 @@ footer {
     }
 
     /* Medium (md): tablet*/
-    @media (min-width: 768px) {
+    @media (min-width: 768px) {}
         .menu-hamburguer{
             display: none;
         }
