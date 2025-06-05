@@ -58,6 +58,13 @@ header {
     border: solid 1px var(--bg-color-02);
 }
 
+main {
+    text-align: justify;
+    padding: 90px;
+    border-radius: 10px;
+    min-width: 280px;
+}
+
 .logo {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -527,46 +534,5 @@ footer {
 
     }
 
-    /* Large (lg): Notebook*/
-    @media (min-width: 992px) {
-        .home-img, .about-imag {
-            max-width: 35%;
-        }
-
-        .services-container {
-            flex-direction: row;
-            gap: 1.2rem;
-        }
-
-        /*header {
-            background-color: var(--color04);
-        }*/
-
-    }
-
-    /*Extra Large (lx): Desktop */
-    @media (min-width: 1200px) {
-        .home-img, .about-imag {
-            max-width: 25%;
-        }
-
-        .home-content h1 {
-            font-size: 2.7rem;
-        }
-
-        .home-content h3 {
-            font-size: 2rem;
-        }
-
-        .portfolio-container {
-            grid-template-columns: auto auto auto;
-        }
-
-
-       /* header {
-            background-color: var(--color05);
-        }*/
-
-    }
 
 /*=== /media queries ====*/
