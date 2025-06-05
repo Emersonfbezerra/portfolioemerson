@@ -58,12 +58,6 @@ header {
     border: solid 1px var(--bg-color-02);
 }
 
-main {
-    text-align: justify;
-    padding: 90px;
-    border-radius: 10px;
-    min-width: 280px;
-}
 
 .logo {
     font-size: 1.7rem;
